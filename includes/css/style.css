@@ -1,0 +1,178 @@
+/*-----------------------------------------------------------------------------------*/
+/* SharePro styling
+/*-----------------------------------------------------------------------------------*/
+
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.sp_container p, 
+.sp_container h2 {
+	margin-bottom: 0 !important;
+}
+
+.sp_container > p {
+	text-align: center;
+}
+
+.sp_container a {
+	text-decoration: none !important;
+}
+
+.sp_container .sp_pro_access,
+.sp_container .sp_free_access {
+	position: relative;
+
+	margin: 10px;
+}
+
+.sp_display {
+	z-index: 1;
+	min-height: 115px;
+	margin-top: -10px;
+	padding: 20px 25px 10px 25px;
+
+	background-color: #d6d6d6; 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#d6d6d6));
+	background: -webkit-linear-gradient(top, #ffffff, #d6d6d6);
+	background: -moz-linear-gradient(top, #ffffff, #d6d6d6);
+	background: -ms-linear-gradient(top, #ffffff, #d6d6d6);
+	background: -o-linear-gradient(top, #ffffff, #d6d6d6);
+
+	border: 1px solid #e0e0e0;
+
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.sp_container .sp_title {
+	background: url(../images/title_bg.png) repeat-x;
+	position: relative; z-index: 10;
+
+	font-size: 14px;
+	height: 40px;
+	line-height: 42px;
+	padding: 0 20px;
+
+	color: #0c4884;
+	text-shadow: 1px 1px 1px #ffffff;
+
+	border: 1px solid #c4c4c4;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.sp_container .sp_pro_access ul {
+	list-style-type: none;
+
+	width: 245px;
+	margin-bottom: 18px;
+}
+
+.sp_container .sp_pro_access ul li {
+	background: url(../images/icon_tick.png) no-repeat left center;
+	float: left;
+	
+	margin: 5px 0;
+	padding-left: 25px;
+
+	color: #84888d;
+}
+
+.sp_container .sp_free_access p,
+.sp_container .sp_free_access h2 {
+	text-align: center;
+
+	color: #84888d;
+}
+
+.sp_container .sp_free_access h2 {
+	font-size: 46px;
+	height: 32px;
+	line-height: 35px;
+	margin-top: 5px;
+
+	color: #b3b7bc;
+}
+
+.sp_container .sp_button,
+.sp_container .sp_button:hover {
+	display: block;
+	background-image: url(../images/button_bg.png) !important;
+	background-repeat: no-repeat !important;
+
+	width: 110px;
+	height: 25px;
+	line-height: 26px;
+
+	color: #eeeeee;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+
+	border: 1px solid;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.sp_container .sp_button:hover {
+	color: #ffffff !important;
+}
+
+.sp_container .sp_button.download {
+	margin: 0 auto;
+}
+
+.sp_container .sp_button.download.cancel {
+	cursor: default;
+}
+
+.sp_container .sp_button.download.cancel:hover {
+	color: #eeeeee !important;
+}
+
+.sp_container .sp_button.cancel {
+	background-color: #b5b5b5 !important;
+	border-color: #b5b5b5 !important;
+}
+
+.sp_container input.sp_button,
+.sp_container input.sp_button:hover {
+	cursor: pointer;
+	font-size: 13px !important;
+	line-height: 13px !important;
+}
+
+.sp_container .sp_input {
+	font-size: 12px;
+	width: 163px;
+	height: 15px;
+	padding: 5px;
+	margin-left: 15px;
+	margin-bottom: 8px;
+
+	color: #3b3b3b;
+
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.sp_container form span {
+	display: block;
+	float: left;
+	line-height: 26px;
+	margin-bottom: 8px;
+}
