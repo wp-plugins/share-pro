@@ -30,13 +30,14 @@ B. No the plugin is made to help admin of site to share files more professionall
 
 == Screenshots ==
 
-1. http://vuzzu.net/sp/screenshot1.jpg
-2. http://vuzzu.net/sp/screenshot2.jpg
-3. http://vuzzu.net/sp/screenshot3.jpg
-4. http://vuzzu.net/sp/screenshot4.jpg
+1. Here you can see share pro in action, which offers 2 options to download for users.
+2. Here you can see pro accessed user download panel.
+3. Also see the login form on the download panel.
+4. And this one is the modal form which pops out from your wordpress editor.
 
 == Changelog ==
-/
+= 1.0 =
+* Updating screenshots
 
 == Upgrade notice ==
 /
