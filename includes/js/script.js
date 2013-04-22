@@ -27,7 +27,7 @@ jQuery(function(){
 
 					if(timer_count == 0) { 
 						clearInterval(waiting_seconds); 
-						$v.post(wpajax_url, { action: 'sp_ajax', file: file }, function(url) { 
+						jQuery.post(wpajax_url, { action: 'sp_ajax', file: file }, function(url) { 
 							window.location.href = url;
 						});
 						return; 
@@ -54,7 +54,7 @@ jQuery(function(){
 							if(secs_count == 0) { 
 								clearInterval(waiting_secs);
 								clearInterval(waiting_mins); 
-								$v.post(wpajax_url, { action: 'sp_ajax', file: file }, function(url) { 
+								jQuery.post(wpajax_url, { action: 'sp_ajax', file: file }, function(url) { 
 									window.location.href = url;
 								});
 								return; 
@@ -101,7 +101,7 @@ jQuery(function(){
 		event.preventDefault();
 		file = jQuery(this).attr('id').split('_'); file = file[1];
 
-		$v.post(wpajax_url, { action: 'sp_ajax', file: file }, function(url) { 
+		jQuery.post(wpajax_url, { action: 'sp_ajax', file: file }, function(url) { 
 			window.location.href = url;
 		});
 	});
